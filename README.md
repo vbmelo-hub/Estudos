@@ -1,2 +1,2 @@
 # Name
- Tudo que estou estudando no momento
+ Tudo que estou estudando por fora da faculdade
