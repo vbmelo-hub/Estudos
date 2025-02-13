@@ -1,0 +1,50 @@
+-- DESENVOLVIMENTO WEB CSS INTERNO --
+
+#Dicionário:
+
+- background-color: exemplo;
+  -Muda a cor de fundo.
+
+- font-family: exemplo;
+   -Troca a fonte.
+
+- font-size: exemplo;
+   -Tamanho da fonte.
+
+- color: exemplo;
+   -Cor.
+
+- text-decoration: exemplo;
+   -Decoração do texto.
+
+- text-align: exemplo;
+   -Alinhamento do texto.
+
+Exemplo da criação de uma CSS organizada internamente junto ao código HTML:
+
+#A configuração abaixo se trata especificamente da configuração do corpo do site num geral.
+<style> 
+    body {
+        background-color: exemplo;
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px
+    }
+
+#Configuração de todos os títulos h1:
+    h1 {
+        color: exemplo;
+	background-color: exemplo;
+    }
+
+#Configuração de todos os h2:
+    h2 {
+        color: exemplo;
+    }
+
+</body>
+
+-- DESENVOLVIMENTO WEB CSS EXTERNO --
+
+Ao criar uma CSS externa as configurações da CSS passam a ser globais para todos os arquivos .html que estiverem com o código abaixo:
+
+<link rel="stylesheet" href="style.css">

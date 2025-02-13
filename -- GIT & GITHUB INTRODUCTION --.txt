@@ -1,0 +1,19 @@
+-- GIT & GITHUB INTRODUCTION -- 
+
+Git = Software de Controle de Versão / Ferramenta de Versionamento de Código / Repositório local.
+
+GitHub = Plataforma de Rede Social para Programadores / Repositório Remoto.
+
+Vantagens Git:
+- Controle de histórico.
+- Trabalho em equipe.
+- Ramificação do projeto.
+- Segurança.
+- Organização.
+
+Vantagens GitHub:
+- Repositórios ilimitados.
+- Hospedagem de código-fonte.
+- GitHub Pages integrado.
+- Colaboração.
+- Forks.  
