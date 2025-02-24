@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    <style>
+        /*
+            padding = caixa interna
+            border  = interno
+            magin   = caixa externa
+            outline = externo
+
+            TIPOS DE CAIXA
+            box-level = 100% viewport, quebra linha.
+            Ex box-level: 
+                - <div>
+                - <h1> - <h6>
+                - <p>
+                - <main>
+                - <header>
+                - <nav>
+                - <article>
+                - <aside>
+                - <footer>
+                - <form>
+                - <video>
+
+            inline-level = não quebra linha e não ocupa a linha inteira.
+            Ex inline-level: 
+                - <span>
+                - <a>
+                - <code>
+                - <small>
+                - <strong>
+                - <em>
+                - <sup> - <sub>
+                - <label>
+                - <button>
+                - <input>
+                - <select>
+
+            margin: auto; alinha ao meio automaticamente e é usado em caixas e não em textos
+            margin: 20px auto 40px auto; neste exemplo a margin de cima e baixo são mantidas, mas o alinhamento horizontal é feito automaticamente.
+
+            padding: 10px; todos os valores são 10px
+            padding: 10px 10px 10px 10px; cima, direita, baixo, esquerda
+            padding: 10px 20px; cima e baixo
+        */
+
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;*/
+
+            border: 10px solid darkgray; /*shorthand*/
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            padding: 10px 10px 10px 10px; /*shorthand*/
+
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;*/
+            
+            margin: 10px 10px 40px 10px; /*shorthand*/
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: red;*/
+
+            outline: 5px dashed salmon; /*shorthand*/
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

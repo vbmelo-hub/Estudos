@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellowgreen;
+        }
+
+        a::before {
+            content: '> ';
+        }
+
+        a::after {
+            content: ' <';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/vbmelo-hub" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.instagram.com/vinixius_ba/" target="_blank">Canal do Instagram</a></li>
+        <li><a href="https://vbmelo-hub.github.io/Presentation" target="_blank">Apresentação</a></li>
+    </ul>
+</body>
+</html>
